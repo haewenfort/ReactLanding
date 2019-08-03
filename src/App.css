@@ -1,0 +1,174 @@
+.Home {
+	text-align: center;
+}
+.navbar {
+  position:  fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  z-index:  9;
+} 
+.navbar>.container, .navbar>.container-fluid {
+  display: block;
+}
+.navbar h2 {
+  float:left;
+  margin-bottom:  0;
+}
+.navbar h2 > a > img {
+  width:  200px;
+}
+.navbar .link-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.navbar .link-wrap button {
+  text-transform:  uppercase;
+  letter-spacing: 0.25em;
+  font-size: 12px;
+  background: none;
+  color:#08a2c9;
+  border: 1px solid #08a2c9;
+  margin-left:25px;
+}
+.navbar .link-wrap button:hover {
+  background: #08a2c9;
+  color:#fff;
+}
+.navbar .link-wrap a {
+  color: #000;
+  margin: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 12px;
+  position: relative;
+  padding-bottom: 5px;
+}
+.navbar .link-wrap a:after {
+  content: "";
+  position:  absolute;
+  display: block;
+  background-color: #0fb1d9;
+  height:  2px;
+  width:  0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.navbar .link-wrap a:hover:after,
+.navbar .link-wrap a.is-active:after {
+  width:  100%;
+}
+
+.Jumbotron {
+margin-bottom: 0;
+padding: 100px 0;
+background-size: cover;
+}
+.Jumbotron.top {
+  padding: 200px 0;
+  margin-top: 95px;
+}
+
+.Jumbotron.top h1 {
+  font-size: 45px;
+}
+.Jumbotron h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.Jumbotron h1.dark {
+  color: #000;
+}
+.Jumbotron h1.light {
+  color: #fff;
+}
+
+.InfoGroup {
+padding: 70px 0 70px 0;
+  background: #f8f9fa!important;
+}
+
+.InfoGroup .container,
+.AvatarGroup .container {
+display: inline-flex;
+justify-content: space-between;
+}
+
+.Info {
+max-width: 320px;
+}
+
+.Info i {
+font-size: 45px;
+color: #007bff;
+}
+
+.JigSaw .showcase-text {
+padding: 70px;
+}
+
+.JigSaw .showcase-img {
+  background-size: cover;
+  min-height: 650px;
+}
+
+.AvatarGroup {
+  padding: 100px 0;
+  background: #f8f9fa!important;
+}
+.AvatarGroup h2 {
+  margin-bottom: 50px;
+}
+.Avatar img {
+  border-radius: 100%;
+  box-shadow: #000 0px 0px 10px;
+  width: 192px;
+  height: 192px;
+  margin-bottom: 20px;
+}
+.Avatar p.title {
+  font-size: 20px;
+  margin-bottom:10px;
+  font-weight: bold;
+  color: #000;
+}
+.Avatar p.caption {
+  max-width: 350px;
+}
+.RegisterLogin {
+background: rgba(0, 0, 0, 0.5);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0px;
+left: 0px;
+}
+
+.RegisterLogin > .container {
+width: 400px;
+background: white;
+padding: 20px;
+margin: 40px auto;
+border-radius: 20px;
+text-align: left;
+}
+
+.RegisterLogin > .container input {
+margin: 0 0 16px;
+}
+
+.RegisterLogin > .btn-danger {
+  margin-left:  10px;
+}
+.Feeds .media {
+  background: #e8e8e8;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
